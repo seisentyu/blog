@@ -1,11 +1,11 @@
 ---
-　　layout: default
-　　title: 我的Blog
-　　---
-　　<h2>{{ page.title }}</h2>
-　　<p>最新文章</p>
-　　<ul>
-　　　　{% for post in site.posts %}
-　　　　　　<li>{{ post.date | date_to_string }} <a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></li>
-　　　　{% endfor %}
-　　</ul>
+layout: default
+title: 謌醍噪Blog
+---
+<h2>{{ page.title }}</h2>
+<p>譛譁ｰ譁�遶</p>
+縲縲<ul>
+縲縲縲縲{% for post in site.posts %}
+縲縲縲縲縲縲<li>{{ post.date | date_to_string }} <a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></li>
+縲縲縲縲{% endfor %}
+縲縲</ul>
